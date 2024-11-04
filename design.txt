@@ -1,0 +1,55 @@
+This is a revised design for the online clothing shopping system. Currently most sites are just squares containing an image 
+of the article of clothing which then can be purchased directly or from your bag (stored items you want to purchase). While 
+it is enjoyable to buy stuff, actually looking through all the clothes and the online shopping process is not at all fun. 
+Modifying this process to be more interactable and visually appealing is my idea for the website. The site would be designed 
+to be like the other 3d dimensional sites with different movements and objects instead of just up and down scrolling. The 
+website will start with the user viewing a gloomy store front covered in spray paint to create a sort of mood.
+These are two examples of a gloomy store front. 
+
+
+
+
+
+
+
+
+The lights in the stores and on the street should sort of flicker in and out to add to the gloomy dilapidated effect. This 
+style of store fits best with the streetwear and opium fashion styles. Out front while the screen is the storefront there 
+should be people walking occasionally on the sidewalk and crossing the screen. Here are some character images of people with 
+images of their walking stages. When the user clicks on the door the camera should slowly move towards the door with some 
+camera shake and wobble to simulate walking to make it feel like the user is actually walking towards the store. When close 
+to the front door it should open and the camera continues to move in to the store. Inside is inspired by a dry cleaner and 
+similar vibes to the outside of the store. There is a counter off the left side of the screen and the clothing carousel comes 
+in at the top left corner of the visible screen and moves across still elevated above the ground. After crossing half the 
+screen it swoops downwards and slightly the right of the camera before going completely straight. This clothing carousel
+ will have 3d models of every article of clothing sold on the site. The carousel will then take a slightly greater than 90° 
+ turn to the camera’s right before going back up and into the store. As items on the rack go around the 90 degree turn they 
+ swing outwards so that the entire article of clothing is visible. Chat gpt was really not helpful with this but here is what 
+ it generate after 20 min of trying to get my desired interior, this is not it. The actual shop should not be as run down and 
+ weird. I also added a drawing of my desired layout but it isn't as in-depth. Scrolling inside the store should make the 
+ clothing conveyor rotate around the rack.
+
+
+
+
+
+
+
+
+When an article of clothing is clicked on the camera should pan off to a changing room with a curtain covering the entrance.
+The curtain should sort of move like there is a slight breeze while the site is loading. Once loaded the curtain should slide 
+over and inside is a full rotatable 3d model of a person wearing the article of clothing they clicked on. They can rotate a 
+full 360 around the model to see the clothes from all angles. Here is some AI stuff of it.
+
+
+
+
+
+
+
+
+When someone wants to buy the article of clothing then the camera pans from whatever scene you are at to the counter in the 
+front of the store with a retro cash register sitting on top of it. The article of clothing will be floating above the counter 
+and the price will appear on the register. Then the user enters their payment, deliver, and all other info into the register 
+and it updates on the screen in front of the register. Again the image below is far too dilapidated but AI really was
+not playing along with me. Once purchased then you revert back to the main scene inside the store to continue shopping. 
