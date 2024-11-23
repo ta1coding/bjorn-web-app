@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Continuous Image Carousel</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Dynamic 3D Carousel</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r149/three.min.js"></script>
+    <!-- Include FBXLoader.js locally -->
+    <script src="js/FBXLoader.js"></script>
+    <!-- Include Swiper.js -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="../Clothing Items/2c184f94-90db-40ae-8d90-d88b024d5b3e.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/04abc257-6b92-4ad4-8bed-9c62674ce9c3.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/680a6310-d63f-4334-8cab-f23505b6b97c.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/1007dc4f-8954-4fc4-b9a5-0fdcd189b5a7.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/c071203a-d829-49ec-a07a-44cf2bfff025.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/cda4d3c2-1076-4f5e-b139-5e2e4c1e01ae.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/e2dd8f49-5992-481e-840d-88043d98ca26.webp" alt="Bjorn T-Shirt">
-      </div>
-      <div class="swiper-slide">
-        <img src="../Clothing Items/e82c61b5-964b-43fd-8627-7c728f296889.webp" alt="Bjorn T-Shirt">
-      </div>
-    </div>
-  </div>
+    <div class="carousel-container">
+        <div class="spotlight"></div>
+        
+        <div class="emerging-model">
+            <div class="emerging-model-inner">
+                <!-- Placeholder for emerging 3D model -->
+                <div id="emerging-model-scene"></div>
+            </div>
+        </div>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="scripts.js"></script>
+        <div class="swiper swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Swiper slides with 3D model containers -->
+                <div class="swiper-slide">
+                    <div class="model-preview" data-model="Bjorn_T_Shirt_Design_1121162324"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="model-preview" data-model="BJORN_Vibrance_Collec_1121162927"></div>
+                </div>
+                <!-- Add more slides if needed -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
