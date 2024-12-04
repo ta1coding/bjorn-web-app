@@ -1,3 +1,4 @@
+
 For the person who is now writting on my project
 
 Currently the site is being shifted from supporting images on a basic image carousel to supporting 3d models. The carousel is just a 2d circular carousel and while trying to modify for 3d model support i've run into lots of issues with rendering the models. I think the issue is with the FBXLoader possibly using an older version that no longer works or atleast thats what Ian said was the problem with his model rendering which is also FBX. Once the site is deployed with the images on the carousel they do not appear on the public site but they do when locally hosted. That is the current state of my project.
@@ -172,3 +173,7 @@ To continue development:
 3. Test changes thoroughly on both local and deployed environments.
 
 ---
+
+https://www.figma.com/board/NwENN1ZDX5iO4JxkhEAH8Q/Untitled?node-id=0-1&t=XSitXl0VVhahA9oD-1
+
+
