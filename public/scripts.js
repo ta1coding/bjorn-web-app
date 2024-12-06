@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     slidesPerView: 3,
     initialSlide: 0,
     coverflowEffect: {
-      rotate: 50,
+      // Reduce or eliminate rotation so that the center slide faces forward
+      rotate: 0,
       stretch: 0,
       depth: 100,
       modifier: 1,
