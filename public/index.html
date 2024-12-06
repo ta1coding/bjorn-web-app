@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Dynamic 3D Carousel</title>
+    <!-- Include Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
-    <!-- Include Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r149/three.min.js"></script>
-    <!-- Include FBXLoader.js locally -->
-    <script src="js/FBXLoader.js"></script>
     <!-- Include Swiper.js -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!-- Import Map for module resolution -->
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.149.0/build/three.module.js"
+      }
+    }
+    </script>
 </head>
 <body>
     <div class="carousel-container">
@@ -37,6 +43,7 @@
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <!-- Include the main script as a module -->
+    <script type="module" src="scripts.js"></script>
 </body>
 </html>
